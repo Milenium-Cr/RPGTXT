@@ -20,6 +20,9 @@ def bluebg(text):
 def blue(text):
     return f"\033[34m{text}\033[0m"
 
+def yellow(text):
+    return f"\033[33m{text}\033[0m
+
 def gray(text):
     return f"\033[1;30m{text}\033[0m"
 
